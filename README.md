@@ -1,1 +1,1 @@
-# notes
+# my notes on learning tensorflow
