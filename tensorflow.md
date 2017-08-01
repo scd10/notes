@@ -79,3 +79,12 @@ Variable保存为二进制文件，实际上是一个变量名到tensor值的映
 ---
 
 ## 2. Mechanics 101 
+
+### 2.1 准备数据、下载
+placeholder()
+
+### 2.2 build the graph
+
+   (1) inference()
+   (2) loss()
+   (3) training()
