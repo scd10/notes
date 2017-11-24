@@ -1,1 +1,3 @@
-# my notes on learning tensorflow
+# 学习笔记
+- tensorflow
+- Python3
