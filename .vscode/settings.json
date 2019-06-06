@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "editor.wordWrap": "bounded"
+=======
+    "python.pythonPath": "C:\\Users\\hyyd\\Anaconda3\\envs\\py36\\python.exe"
+>>>>>>> 122265e437f33995496093c437c1b5063cbc3127
 }
