@@ -12,12 +12,14 @@ SHI Chongde
 **Variables** 用来储存和更新参数(parameters)。Variables在内存中存储tensor，必须显式初始化，可以存储到硬盘。
 
 与Variables相关的主要是下面两个类：
+
 * tf.Variable
 * tf.train.Saver
 
 **创建** Variable的时候需要传递一个任意维度、任意形状的tensor给Variable类的constructor，tensor可以是常量，也可以是随机值。
 
 调用 **tf.Variable()** 会进行下面三项操作：
+
 * 设一个参数保留变量；
 * 调用 **tf.assign** 初始化
 * 添加到graph
@@ -31,6 +33,7 @@ SHI Chongde
             v = tf.Variable(...)
 
 ### 1.2 初始化
+
 变量初始化必须显式的调用，可以使用 **tf.global_variables_initializer()** ：
 
         weights = tf.Variable(...)
